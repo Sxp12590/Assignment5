@@ -1,5 +1,10 @@
 # Assignment5
-1. GAN Architecture
+
+Name: Pothuru Sivarkamani Naga Mruthyunjaya
+ID:700751259
+
+
+**1. GAN Architecture**
 Explain the adversarial process in GAN training. What are the goals of the generator and discriminator, and how do they improve through competition? Diagram of the GAN architecture showing the data flow and objectives of each component.
 
 The Adversarial Process in Action:
@@ -30,7 +35,7 @@ This continuous competition, ideally, leads to a state where the generator produ
 
 
 
-2. Ethics and AI Harm
+**2. Ethics and AI Harm**
 
 Choose one of the following real-world AI harms discussed in Chapter 12:
 •	Representational harm
@@ -58,7 +63,7 @@ o	Implementation: Establish a diverse review board comprising educators, ethicis
 By implementing these mitigation strategies, the developers of the AI-powered personalized education platform can strive to create a tool that not only enhances learning but also promotes inclusivity and equitable representation, avoiding the pitfalls of representational harm.
 
 
-5. Legal and Ethical Implications of GenAI
+**5. Legal and Ethical Implications of GenAI**
 Discuss the legal and ethical concerns of AI-generated content based on the examples of:
 •	Memorizing private data (e.g., names in GPT-2)
 •	Generating copyrighted material (e.g., Harry Potter text)
@@ -97,14 +102,13 @@ While restrictions are essential, they shouldn’t paralyze innovation. Key stra
 
 
 
-6. Bias & Fairness Tools
+**6. Bias & Fairness Tools**
 Visit Aequitas Bias Audit Tool.
 Choose a bias metric (e.g., false negative rate parity) and describe:
 •	What the metric measures
 •	Why it's important
 •	How a model might fail this metric
 Optional: Try applying the tool to any small dataset or use demo data.
-
 Bias Metric: False Negative Rate Parity
 •	What the metric measures: False Negative Rate Parity aims to ensure that the proportion of individuals who should have received a positive outcome (according to the ground truth) but were incorrectly denied (a false negative) is similar across different protected groups. In simpler terms, it checks if the model is missing positive instances at roughly the same rate for everyone, regardless of their group affiliation (e.g., race, gender). The metric often compares the false negative rate of each protected group to a reference group (often the majority group). Perfect parity would mean the false negative rates are equal across all groups.
 •	Why it's important: This metric is crucial in applications where a "missed positive" can have significant negative consequences for the individual. For example:
